@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Demo_Onnx": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

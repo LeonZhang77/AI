@@ -1,0 +1,58 @@
+## Please note: This is a standard .gitignore template for C# / .NET applications.
+
+# --- Build Outputs ---
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa]rm/
+[Aa]rm64/
+bbin/
+bin/
+obj/
+/Generated_Files/
+
+# --- Visual Studio Metadata & Cache ---
+.vs/
+.user/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.vshost.exe
+*.vshost.exe.manifest
+*.clr
+*.cache
+*.spec
+*.e2e
+
+# --- Visual Studio Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# --- JetBrains Rider ---
+.idea/
+*.sln.iml
+
+# --- NuGet Packages ---
+*.nuget.props
+*.nuget.targets
+packages/
+# Exclude the restore cache
+project.lock.json
+project.fragment.lock.json
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment Secrets & Local Settings ---
+*.env
+*.env.local
+appsettings.Development.json
+# Uncomment the line above if you want to keep your local database strings/API keys private
